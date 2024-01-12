@@ -1,0 +1,19 @@
+{
+  "name": "node-api-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-table.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --env-file=.env --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.25.2",
+    "postgres": "^3.4.3"
+  }
+}
